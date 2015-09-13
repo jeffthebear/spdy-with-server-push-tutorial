@@ -1,3 +1,5 @@
+**Update: Upgraded the node-spdy version to 2.0.4 and made changes to app.js to reflect the upgrade.  The previous app.js has been moved to app-spdy-v1.js.**
+
 Ilya Grigorik gave a great talk recently ostensibly titled [HTTP 2.0 For Fun and Profit](https://www.youtube.com/watch?feature=player_embedded&v=ZxfEcqJ4MOM), even though he actually talks mostly about [SPDY](http://www.chromium.org/spdy), the next generation web protocol developed at Google that the HTTP 2.0 Working Group is using as it's starting point/sandbox for new ideas. 
 
 SPDY is a game-changer.  It's going to change how web developers deliver content to the browser.  No longer will we have to resort to [hacks](http://guides.rubyonrails.org/asset_pipeline.html), building concatenated JS and CSS files, splitting up resources into different [asset hosts](http://scottpatten.ca/2007/10/setting-up-multiple-asset-hosts-in-rails.html) to trick the browser into downloading more assets at once. We are going to have to rethink all of the assumptions we currently are making. 

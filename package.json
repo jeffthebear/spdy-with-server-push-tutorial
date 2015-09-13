@@ -8,6 +8,6 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "spdy": "1.4.3"
+    "spdy": "2.0.4"
   }
 }
